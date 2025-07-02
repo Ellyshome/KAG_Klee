@@ -1,4 +1,4 @@
-# 大模型知识服务框架 KAG
+# 基于OpenSPG项目的落地实例。项目代号：Klee
 
 <div align="center">
 <a href="https://spg.openkg.cn/en-US">
@@ -7,9 +7,7 @@
 </div>
 
 <p align="center">
-  <a href="./README.md">English</a> |
-  <a href="./README_cn.md">简体中文</a> |
-  <a href="./README_ja.md">日本語版ドキュメント</a>
+  <a href="./README_cn.md">简体中文</a>
 </p>
 
 <p align="center">
