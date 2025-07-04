@@ -1,28 +1,5 @@
 # 基于OpenSPG项目的落地实例。项目代号：Klee
 
-<div align="center">
-<a href="https://spg.openkg.cn/en-US">
-<img src="./_static/images/OpenSPG-1.png" width="520" alt="openspg logo">
-</a>
-</div>
-
-<p align="center">
-  <a href="./README_cn.md">简体中文</a>
-</p>
-
-<p align="center">
-    <a href='https://arxiv.org/pdf/2409.13731'><img src='https://img.shields.io/badge/arXiv-2409.13731-b31b1b'></a>
-    <a href="https://github.com/OpenSPG/KAG/releases/latest">
-        <img src="https://img.shields.io/github/v/release/OpenSPG/KAG?color=blue&label=Latest%20Release" alt="Latest Release">
-    </a>
-    <a href="https://openspg.yuque.com/ndx6g9/docs">
-        <img src="https://img.shields.io/badge/用户手册-1e8b93?logo=readthedocs&logoColor=f5f5f5" alt="用户手册">
-    </a>
-    <a href="https://github.com/OpenSPG/KAG/blob/main/LICENSE">
-        <img height="21" src="https://img.shields.io/badge/License-Apache--2.0-ffffff?labelColor=d4eaf7&color=2e6cc4" alt="license">
-    </a>
-</p>
-
 # 1. KAG 是什么
 
 KAG 是基于 [OpenSPG](https://github.com/OpenSPG/openspg) 引擎和大型语言模型的逻辑推理问答框架，用于构建垂直领域知识库的逻辑推理问答解决方案。KAG 可以有效克服传统 RAG 向量相似度计算的歧义性和 OpenIE 引入的 GraphRAG 的噪声问题。KAG 支持逻辑推理、多跳事实问答等，并且明显优于目前的 SOTA 方法。
@@ -33,10 +10,6 @@ KAG 的目标是在专业领域构建知识增强的 LLM 服务框架，支持�
 * 利用概念语义推理进行知识对齐，缓解 OpenIE 引入的噪音问题
 * 支持 Schema-Constraint 知识构建，支持领域专家知识的表示与构建
 * 逻辑符号引导的混合推理与检索，实现逻辑推理和多跳推理问答
-
-⭐️点击右上角的 Star 关注 KAG，可以获取最新发布的实时通知！🌟
-
-![Star KAG](./_static/images/star-kag.gif)
 
 # 2. KAG 核心功能
 
